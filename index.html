@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ua_Case - Магазин чохлів та аксесуарів</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/favicon.png" type="img/x-icon">
+</head>
+
+<body>
+  <div id="top"></div>
+  <header id="home" class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+          <a href="index.html"><img src="img/logotype.png" class="navbar-brand" href="index.html"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="#top"><button type="button" class="btn btn-outline-info">Головна</button></a>
+                <a href="#goods"><button type="button" class="btn btn-outline-info">Товари</button></a>
+                <a href="#info"><button type="button" class="btn btn-outline-info">Про нас</button></a>
+                <a href="order-card.html"><button type="button" class="btn btn-outline-info">Замовити друк</button></a>
+            </div>
+          </div>
+              <a class="nav-link" href="#cartModal" data-toggle="modal">
+                  <i class="fas fa-shopping-cart"></i>
+                  Кошик<span id="cart-badge" class="badge badge-light"></span>
+              </a>
+          </div>
+      </nav>
+    </header>
+    <main class="container">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel-image-price.jpg" class="d-block w-100" alt="Перша фотка каруселі низькі ціни">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-image-best.jpg" class="d-block w-100" alt="Друга фотка каруселі Якісне обслуговування">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-image-pair.jpg" class="d-block w-100" alt="Третя фотка каруселі Парні чохли">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        <section>
+            <h1 id="goods">Новинки</h1>
+            <div class="row products-container">
+               <!--Products are dynamically generated here-->
+            </div>
+            <a href="goods.html"><button type="button" class="btn btn-warning">Більше товарів</button></a>
+        </section>
+        <div class="information">
+            <h1 id="info">Про нас</h1>
+            <p><b>UA_case</b> - це онлайн-магазин чохлів та інших аксесуарів для вашого смартфону. У нас ви можете знайти чохол на більш ніж 1000 моделей телефонів.<br>
+            Також у нас ви можете самі вибрати собі дизайн або зробити самостійно на <a href="https://print.caseshop.com.ua/?utm_source=caseshop&utm_medium=main_page_link">Конструкторі</a>.</p>
+            <h4>Що ми пропонуємо?</h4>
+            <br>
+            <br>
+            <p><b>-Друк на силіконових чохлах;</b></p>
+            <br>
+            <br>
+            <p><b>-Захисне скло 2-ох типів <i>(Звичайне і 3D);</i></b></p>
+            <br>
+            <br>
+            <p><b>-Виготовлення чохлів з натуральної шкіри;</b></p>
+            <br>
+            <br>
+            <p><b>-Знижка при замовленні 2-ох чохлів;</b></p>
+            <br>
+            <br>
+            <p><b>-Вибір з 2000 готових дизайнів;</b></p>
+            <br>
+            <br>
+            <p><b>-Послуги дизайнера <span class="red">БЕЗКОШТОВНО</span>.</b></p>
+            <br>
+            <br>
+                                <h4>Рекомендуємо ознайомитися з цією інформацією перед замовленням</h4>
+                <br>
+                <p><b>Силіконовий чохол:</b>  Захисний сучасний чохол, виготовлений з високотехнологічних міцних матеріалів. Друк проводиться на гладких TPU чохлах (без хвилі ззаді), або фірмових чохлах S-Line (з хвилею). Ви можете вибрати колір чохла на якому ми будемо друкувати. Ми використовуємо 8 кольорів чохлів: білий, прозорий, чорний, сірий, червоний, рожевий, синів і фіолетовий.
+                </p><br>
+                <br>
+                <p><b>Вибір картинки:</b> Чохол з надрукованим малюнком виглядає дуже оригінально і ефектно, тому Ви можете скинути нам свою картинку, будь яке фото чи текст на Вайбер/Телеграм: <span class="blue">+380971659713</span>, або пошту - <span class="blue">uacase75@gmail.com</span>, Ми зробимо макет з вашим дизайном і оформимо замовлення.
+                <b><i>Також ви можете вибрати дизайн з нашого каталогу, там ми зібрали яскраві і модні картинки.</i></b>
+                </p><br>
+                <br>
+                <p><b>Порада по підбору кольора чохла і картинки.</b> Вибирайте колір чохла для друку з похожим кольором до картинки. Наприклад світла картинка ― прозорий чохол, і навпаки. Надрукувавши більше ніж 100000 чохлів із впевненістю можемо сказати ― краще всього чохли виглядають при друку на прозорому чохлі, він універсальний. До того ж картинки на ньому завжди виходять набагато яскравіше. Перед замовленням Ви можете переглянути галерею наших робіт, це допоможе при виборі.
+                </p><br>
+                <br>
+                <p><b>Якість друку.</b> Для нас дуже важдиво щоб наша продукція була на вищому рівні. Тому ми використовуємо якісне японське обладнання і тільки оригінальні матеріали.
+                </p><br>
+                <p>Рисунок на чохлі дуже стійкий, навіть при необережному ставленні він не стирається. По власному досвіду знаємо, що за місяці використання такого чохла, рисунок залишається колишнім.
+                </p><br>
+                <br>
+                <p><b>Додаткові питання.</b> Якщо у Вас залишились питання, Ви можете задати їх подзвонивши по телефонах:<br></p>
+                <p><b>+380971659713</b><br>
+                <b>+380934971232</b><br>
+                    Або написавши на пошту: <b>uacase75@gmail.com.</b></p>
+        </div>
+            <h2 class="why">Чому нам варто довіряти?</h2>
+            <div class="proof">
+            <div class="content-1">
+                <img src="img/hq.png" alt="іконка високої якості">
+                    <p>Висока якість</p>
+            </div>
+            <div class="content-2">
+                <img src="img/mail.svg" alt="іконка повідомлення">
+                    <p>Швидка доставка</p>
+            </div>
+            <div class="content-3">
+                <img src="img/security.png" alt="іконка захисту">
+                    <p>Якісне обслуговування</p>
+            </div>
+            <div class="content-4">
+                <img src="img/shoping-cart.png" alt="іконка покупок">
+                    <p>Більш ніж 1000 моделей</p>
+            </div>
+            <div class="content-5">
+                <img src="img/buble-icon.svg" alt="іконка лампочки">
+                    <p>Великий вибір дизайнів</p>
+            </div>
+            <div class="content-6">
+                <img src="img/money-icon.png" alt="іконка грошей">
+                    <p>Низькі ціни</p>
+            </div>
+        </div>
+        <section class="contact_form">
+            <h2>Зв'яжіться з нами</h2>
+            <p>Тут ви можете залишити свій відгук про наш сайт, а також написати питання, яке у вас виникло при перегляді сайту.</p>
+            <form action="https://formspree.io/uacase75@gmail.com" method="POST">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Ім'я" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="_replyto" class="form-control" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Ваше повідомлення: <span class="red">*</span></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="message" required></textarea>
+                </div>
+                    <button type="submit" class="btn btn-primary">Відправити</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container">
+        <nav>
+            <a href="#top">Головна</a>
+            <a href="#goods">Товари</a>
+            <a href="#info">Про нас</a>
+            <a href="order-card.html">Замовити друк</a>
+        </nav>
+        <div>
+            <a href="#top"><img class="logo" src="img/logotype.png" alt="логотип"></a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/_ua_case_/"><img src="img/instagram.png" alt="логотип інстаграм"></a>
+            <a href="https://t.me/UA_case"><img src="img/telegram.png" alt="логотип телеграм"></a>
+            <a href="https://www.facebook.com/ua_case-380219409491560/"><img src="img/facebook.png" alt="логотип Facebook"></a>
+        </div>
+        <p>Всі права захищені © 2019</p>
+    </footer>
+
+
+    <!-- Modal Product Info -->
+    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img class="card-img-top" src="" alt="">
+              <h4 class="card-title"></h4>
+              <p class="card-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+            <button class="btn btn-primary buy" data-id="id">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Cart -->
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Кошик</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Ваше ім'я</label>
+                  <input class="form-control col-8" type="text" id="client-name" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-email" class="col-4 col-form-label">Ваш email:</label>
+                  <input class="form-control col-8" type="email" id="client-email" required>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+            <button class="btn btn-primary order">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>
